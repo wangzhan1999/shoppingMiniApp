@@ -1,0 +1,20 @@
+<view class="comment">
+  <view class="commentHeader">
+    <view>用户评价</view>
+    <view>更多
+      <image class="back-icon"
+            src="/asstes/img/common/lf.png"
+            mode="widthFix"/>
+    </view>
+  </view>
+  <view class="userinfo">
+    <image src="{{comment.user.avatar}}"
+            mode="widthFix"
+            class="userAv"/>
+    <text>{{comment.user.uname}}</text>
+  </view>
+  <view class="content">{{comment.content}}</view>
+  <view class="commentinfo">
+    <view>{{comment.created}}<text>{{comment.style}}</text></view>
+  </view>
+</view>

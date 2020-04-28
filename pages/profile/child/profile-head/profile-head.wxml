@@ -1,0 +1,9 @@
+<view class="head">
+  <image class="avatar" 
+         src="{{user.avatar}}" 
+         mode="heightFix"/>
+  <text>{{user.username}}</text>
+  <image class="enter" 
+         src="/asstes/img/common/lf.png" 
+         mode="widthFix"/>
+</view>

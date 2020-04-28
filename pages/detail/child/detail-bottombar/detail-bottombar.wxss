@@ -1,0 +1,23 @@
+.bottombar{
+  display: flex;
+  border-top: 1px solid #ccc
+}
+.bottombar image{
+  width: 32rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.botbatitem{
+  flex: 1;
+  line-height: 90rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.botbatitem:last-of-type{
+  background-color: #ff5777;
+  color: #fff
+}
+.botbatitem:nth-last-of-type(2){
+  background-color: #fdff83;
+  flex:1.5
+}

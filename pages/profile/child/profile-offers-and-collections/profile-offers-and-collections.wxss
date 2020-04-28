@@ -1,0 +1,18 @@
+.oac{
+  display: flex;
+  border: 1px solid #e1e1e1;
+  border-radius: 10rpx;
+  margin: 0 3vw;
+  padding: 16rpx 0;
+}
+.oacitem{
+  flex: 1;
+  text-align: center;
+}
+.field{
+  font-size: 28rpx;
+  padding-top: 14rpx;
+}
+.fielddata{
+  color: #ff8198;
+}

@@ -1,0 +1,22 @@
+<view class="baseinfo">
+  <view class="title">{{goods.title}}</view>
+  <view class="pricegroup">
+    <text class="newprice">{{goods.newPrice}}</text>
+    <text class="oldprice">{{goods.oldPrice}}</text>
+    <text class="discount">{{goods.discount?goods.discount:'暂无折扣'}}</text>
+  </view>
+  <view class="colums">
+   <view class="columsitem" wx:for="{{goods.columns}}" wx:key="index">
+    {{item}}
+   </view>
+  </view>
+  <view class="services">
+    <view wx:for="{{goods.services}}"
+          wx:key="index" 
+          class="servicesitem" 
+          wx:if="{{item.icon}}">
+      <image src="{{item.icon}}" class="icon"/>
+      {{item.name}}
+    </view>
+  </view>
+</view>

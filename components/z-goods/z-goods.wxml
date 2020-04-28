@@ -1,0 +1,5 @@
+<view class="goodslist">
+    <block wx:for="{{goodsList}}" wx:key="index">
+      <z-goodsItem class="item" item="{{item}}" bindtap="todetail" data-id="{{item.iid}}"/>
+    </block>
+  </view>

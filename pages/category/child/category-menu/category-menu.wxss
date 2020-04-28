@@ -1,0 +1,14 @@
+.menu{
+  height: 100vh;
+  background-color: rgb(250, 242, 242)
+}
+.item{
+  height: 88rpx;
+  line-height: 80rpx;
+  text-align: center
+}
+.itemactive{
+  color: #ff5777;
+  border-left: 6rpx solid #ff5777;
+  background-color: #fff;
+}

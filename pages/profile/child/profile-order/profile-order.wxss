@@ -1,0 +1,38 @@
+.orderinfo{
+  margin: 26rpx 3vw 0;
+  border: 1px solid #e1e1e1;
+}
+.oinfohead{
+  padding: 20rpx 20rpx;
+  border-bottom: 1px solid #e1e1e1;
+  position: relative
+}
+.oinfohead view{
+  display: inline-block
+}
+.oinfohead .oinfoheadlf{
+  font-size: 28rpx;
+  font-weight: 700
+}
+.oinfohead .oinfoheadrt{
+  position: absolute;
+  right: 20rpx;
+  font-size: 22rpx;
+}
+.oinfohead image{
+  width: 30rpx;
+  transform: rotate(180deg) translateY(-20%);
+}
+.oinfobody{
+  display: flex;
+  padding: 20rpx 0 60rpx;
+}
+.oinfobodyitem{
+  flex: 1;
+  text-align: center;
+  font-size: 26rpx;
+}
+.oinfobodyitem image{
+  height: 100%;
+  vertical-align: bottom
+}

@@ -1,0 +1,13 @@
+<view class="paraminfo">
+  <text>{{paramInfo.infokey}}</text>
+  <view class="sizetable">
+    <view wx:for="{{paramInfo.sizes}}" wx:key="index">
+      <view class="sizeitem" wx:for="{{item}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+  <view class="infotable">
+    <view wx:for="{{paramInfo.infos}}" wx:key="index">
+      <view class="infoitem" wx:for="{{item}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+</view>

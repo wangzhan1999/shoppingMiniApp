@@ -1,0 +1,12 @@
+<scroll-view scroll-y 
+             class="profile">
+  <profile-head user="{{user}}"/>
+  <profile-offers-and-collections offersAndCollections="{{offersAndCollections}}"/>
+  <profile-order orderInfo="{{orderInfo}}"/>
+  <view class="mubanview">
+    <view wx:for="{{6}}" wx:key="index" class="mubanitem">
+      <image class="muban" src="/asstes/img/profile/muban.png" mode="heightFix"/>
+      <image class="enter" src="/asstes/img/common/lf.png" mode="widthFix"/>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,3 @@
+<view class="popular">
+  <image src="/asstes/img/home/recommend.png" mode="widthFix"/>
+</view>

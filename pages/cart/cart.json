@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cart-list": "./child/cart-list/cart-list",
+    "cart-subnav": "./child/cart-subnav/cart-subnav",
+
+    "z-checkbox": "/components/z-checkbox/z-checkbox"
+  }
+}

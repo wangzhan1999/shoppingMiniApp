@@ -1,0 +1,10 @@
+swiper{
+  height: 480rpx
+}
+swiper-item{
+  height: 480rpx
+}
+swiper-item > image{
+  margin-top: -30%;
+  width: 100%
+}

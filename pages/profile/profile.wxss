@@ -1,0 +1,27 @@
+.profile{
+  height: 100vh;
+}
+.mubanview{
+  border: 1px solid #e1e1e1;
+  border-radius: 10rpx;
+  margin: 20rpx 3vw 30rpx;
+}
+.mubanitem{
+  height: 100rpx;
+  position: relative;
+  border-bottom: 1px solid #e1e1e1
+}
+.mubanitem:last-of-type{
+  border-bottom: none
+}
+.mubanview .muban {
+  height: 80%;
+  transform: translateY(10%) translateX(3vw);
+}
+.mubanview > .mubanitem > .enter{
+  transform: rotate(180deg) translateY(50%);
+  width: 40rpx;
+  position: absolute;
+  right: 5vw;
+  top: 50%;
+}

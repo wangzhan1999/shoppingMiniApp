@@ -1,0 +1,4 @@
+<view>
+  <text class="goodstit">好物推荐</text>
+  <goods goodsList="{{goodsList}}"/>
+</view>

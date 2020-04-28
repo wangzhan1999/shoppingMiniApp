@@ -1,0 +1,27 @@
+.goods-item{
+  margin-top: 20rpx;
+}
+.title{
+  font-size: small;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.info{
+  text-align: center;
+  font-size: smaller
+}
+.price{
+  color: #ff8198;
+  padding: 0 10rpx;
+}
+.collect{
+  display: inline-block;
+  width: 32rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+.cfav{
+  padding:0 10rpx;
+}

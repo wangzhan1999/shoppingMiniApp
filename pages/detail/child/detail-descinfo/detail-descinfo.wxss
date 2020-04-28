@@ -1,0 +1,38 @@
+.descInfo{
+  padding: 20rpx 16rpx;
+  position: relative;
+  border-bottom: 14rpx solid #f2f5f8;
+}
+.desc{
+  font-size: 26rpx;
+  line-height: 50rpx;
+  padding: 16rpx 5vw;
+}
+.start,.end{
+  width: 30vw;
+  border-bottom: 1px solid #1b1b1b
+}
+.start::after,.end::after{
+  content: '';
+  display: block;
+  width: 8rpx;
+  height: 8rpx;
+  background-color: #1b1b1b;
+}
+.start{
+  position: absolute;
+  left: 7vw;
+}
+.end{
+  position: absolute;
+  right: 7vw;
+  transform: rotate(180deg)
+}
+.key{
+  font-size: 24rpx;
+  line-height: 70rpx;
+  margin-left: 5vw; 
+}
+.imgList > image{
+  width: 100%;
+}

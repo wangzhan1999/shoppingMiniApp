@@ -1,0 +1,17 @@
+<view class="orderinfo">
+  <view class="oinfohead">
+    <view class="oinfoheadlf">我的订单</view>
+    <view class="oinfoheadrt">查看全部订单
+      <image src="/asstes/img/common/lf.png" 
+             mode="widthFix"/>
+    </view>
+  </view>
+  <view class="oinfobody">
+    <block wx:for="{{orderInfo.icon}}" wx:key="index">
+      <view class="oinfobodyitem">
+        <image src="{{item}}" mode="heightFix"/>
+        <view>{{orderInfo.field[index]}}</view>
+      </view>
+    </block>
+  </view>
+</view>

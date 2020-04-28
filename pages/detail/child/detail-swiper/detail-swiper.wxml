@@ -1,0 +1,11 @@
+<swiper autoplay
+        indicator-dots
+        indicator-active-color="#ff8198"
+        circular
+        interval="3000"
+        indicator-color="rgba(255, 255, 255, .8)">
+  <swiper-item wx:for="{{topImgs}}"
+               wx:key="index">
+    <image src="{{item}}" mode='widthFix'/>
+  </swiper-item>
+</swiper>

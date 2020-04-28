@@ -1,0 +1,15 @@
+<scroll-view scroll-y class="cart-scrollview">
+  <block wx:for="{{cartList}}" wx:key="index">
+    <cart-list goods="{{item}}"
+               index="{{index}}"
+               bind:oncheked="oncheked"
+               bind:subtraction='changeData'
+               bind:addition='changeData'
+               />
+  </block>
+</scroll-view>
+<cart-subnav totalPrice="{{totalPrice}}"
+             totalCounter="{{totalCounter}}"
+             isCheckedAll="{{isCheckedAll}}"
+             bindcheckedAll="onCheckedAll"
+             bindbuy="onBuy"/>

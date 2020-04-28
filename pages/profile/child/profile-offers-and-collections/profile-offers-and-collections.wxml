@@ -1,0 +1,11 @@
+<view class="oac">
+  <block wx:for="{{offersAndCollections.field}}" 
+         wx:key="index">
+    <view class="oacitem">
+      <view class="fielddata">
+        {{offersAndCollections.fieldData[index]}}
+      </view>
+      <view class="field">{{item}}</view>
+    </view>       
+  </block>
+</view>

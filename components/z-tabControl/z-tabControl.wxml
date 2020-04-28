@@ -1,0 +1,9 @@
+<view class="tab-control">
+  <view class="tab-control-item {{index === currentIndex ? 'itemactive' : ''}}"
+        wx:for="{{titles}}"
+        wx:key="index"
+        data-currentIndex="{{index}}"
+        bindtap="tabContralTap"
+  ><text data-currentIndex="{{index}}"
+         >{{item}}</text></view>
+</view>

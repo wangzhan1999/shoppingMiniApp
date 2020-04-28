@@ -1,0 +1,23 @@
+.head{
+  padding: 20rpx 3vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.head > .avatar{
+  height: 24vw;
+  width: 24vw;
+  border: 1px solid #e1e1e1;
+  border-radius: 100%;
+}
+.head > text{
+  line-height: 24vw;
+  width: 50vw;
+  text-align: right
+}
+.head > .enter{
+  width: 48rpx;
+  height: 48rpx;
+  transform: rotate(180deg) translateY(50%);
+  margin-top: 12vw;
+  margin-left: 2vw;
+}

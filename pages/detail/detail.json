@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "z-back-top": "/components/z-back-top/z-back-top",
+
+    "detail-navbar": "./child/detail-navbar/detail-navbar",
+    "detail-swiper": "./child/detail-swiper/detail-swiper",
+    "detail-baseinfo": "./child/detail-baseinfo/detail-baseinfo",
+    "detail-shopinfo": "./child/detail-shopinfo/detail-shopinfo",
+    "detail-descinfo": "./child/detail-descinfo/detail-descinfo",
+    "detail-paraminfo": "./child/detail-paraminfo/detail-paraminfo",
+    "detail-comment": "./child/detail-comment/detail-comment",
+    "detail-goods": "./child/detail-goods/detail-goods",
+    "detail-bottombar": "./child/detail-bottombar/detail-bottombar"
+  }
+}

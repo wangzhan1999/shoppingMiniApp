@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物街",
+  "usingComponents": {
+    "z-swiper": "../../components/z-swiper/z-swiper",
+    "z-tabControl": "../../components/z-tabControl/z-tabControl",
+    "z-goods": "../../components/z-goods/z-goods",
+    "z-back-top": "../../components/z-back-top/z-back-top",
+    "index-recommend": "./child/index-recommend/index-recommend",
+    "index-popular": "./child/index-popular/index-popular"
+  }
+}

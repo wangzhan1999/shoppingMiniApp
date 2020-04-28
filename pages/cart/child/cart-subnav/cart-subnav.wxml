@@ -1,0 +1,7 @@
+<view class="cart-subnav">
+  <view class="box">
+  <z-checkbox isChecked="{{isCheckedAll}}" class="checkbox" bindtap="checkedAll"/>
+  <text>全选</text></view>
+  <text class="total-price">总计:￥{{totalPrice}}</text>
+  <view class="total-counter" bindtap="buy">去计算({{totalCounter}})</view>
+</view>

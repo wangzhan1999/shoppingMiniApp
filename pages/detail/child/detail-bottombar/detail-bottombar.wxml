@@ -1,0 +1,13 @@
+<view class="bottombar">
+     <view class="botbatitem">
+    <image src="/asstes/img/common/servise.png" mode="widthFix"/>
+     客服
+     </view>
+     <view class="botbatitem">店铺</view>
+     <view class="botbatitem">收藏</view>
+     <view class="botbatitem" bindtap="addCart">
+     <image src="/asstes/img/tabBarIcon/cart-a.png" mode="widthFix"/>
+     加入购物车
+     </view>
+     <view class="botbatitem">购买</view>
+</view>

@@ -1,0 +1,9 @@
+<view class="category">
+  <category-menu menulist="{{menuList}}"
+                 bind:tapmenu="tapmenu"
+                 class="menu"/>
+  <category-content class="content"
+    subCategories="{{categoryData[currentIndex].subcategories}}"
+    categoryDetail="{{categoryData[currentIndex].categoryDetail}}"  
+  />
+</view>

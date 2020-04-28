@@ -1,0 +1,6 @@
+.z-swiper{
+  height: 350rpx;
+}
+.z-swiper-item   image {
+  width: 100%;
+}

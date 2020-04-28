@@ -1,0 +1,20 @@
+.categorycontent{
+  height: 100%;
+}
+.subcategory{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 30rpx
+}
+.subcategory > .item{
+  width: calc(100% / 3);
+  text-align: center
+}
+.subcategory > .item > image{
+  width: 80%;
+}
+.subcategory > .item > view{
+  font-size: 28rpx;
+  padding: 20rpx 10rpx
+}

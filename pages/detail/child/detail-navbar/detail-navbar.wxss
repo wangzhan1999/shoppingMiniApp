@@ -1,0 +1,35 @@
+.navbar{
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 0 10rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.left,.center,.right{
+  text-align: center;
+}
+.left,.right{
+  flex: 1
+}
+.left > image {
+  width: 40%;
+  vertical-align: middle;
+}
+.center{
+  flex: 3;
+  display: flex;
+}
+.center > view{
+  flex: 1;
+  font-size: 26rpx;
+}
+.itemactive{
+  color: #ff5777;
+}

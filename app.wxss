@@ -1,0 +1,12 @@
+@import '/asstes/css/base.wxss';
+view,text{
+  color: #666;
+}
+page,view,image,swiper,swiper-item,navigator,video{
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
+}

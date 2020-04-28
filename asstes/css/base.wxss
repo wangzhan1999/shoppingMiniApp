@@ -1,0 +1,8 @@
+:root {
+  --color-text: #666;
+  --color-hiht-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}

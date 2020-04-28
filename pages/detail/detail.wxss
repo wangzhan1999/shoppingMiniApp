@@ -1,0 +1,9 @@
+.warp{
+  margin-top: 80rpx;
+  height: calc(100vh - 170rpx);
+}
+.fix{
+  position: fixed;
+  bottom: 100rpx;
+  right: 20rpx;
+}

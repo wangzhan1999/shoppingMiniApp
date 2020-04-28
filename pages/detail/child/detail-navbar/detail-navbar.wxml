@@ -1,0 +1,12 @@
+<view class="navbar">
+  <view class="left"></view>
+  <view class="center">
+    <view wx:for="{{titles}}" wx:key="index"
+          bindtap="itemclick"
+          data-currentindex="{{index}}"
+          class="{{currentIndex === index ? 'itemactive':''}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="right"></view>
+</view>

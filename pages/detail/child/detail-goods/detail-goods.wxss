@@ -1,0 +1,5 @@
+.goodstit{
+  font-size: 26rpx;
+  line-height: 40rpx;
+  margin-left: 20rpx;
+}

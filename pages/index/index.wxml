@@ -1,0 +1,13 @@
+<view class="main">
+  <z-swiper swiperList="{{swiperList}}"/>
+  <index-recommend reCommend="{{reCommend}}" bind:imgload="imgload"/>
+  <index-popular/>
+  <z-tabControl titles="{{titles}}"
+                bind:itemclick='tabControlClick'
+                class="{{tabcontrolFix ? 'fixed' : ''}}"
+                id="tabcontrol"/>
+                <z-tabControl titles="{{titles}}" wx:if="{{tabcontrolFix}}"/>
+  <z-goods goodsList="{{goodsList[currentType].list}}" bind:todetail="todetail"/>
+  <z-back-top bind:backtop="backtop" wx:if="{{showbackbtn}}" class="fix"/>
+</view>
+

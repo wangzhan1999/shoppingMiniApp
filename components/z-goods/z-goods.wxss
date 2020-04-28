@@ -1,0 +1,12 @@
+/* components/z-goods/z-goods.wxss */
+.goodslist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 48%;
+}
+.item image{
+  width: 100%;
+}

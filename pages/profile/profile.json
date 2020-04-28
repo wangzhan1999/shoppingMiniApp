@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "profile-head": "./child/profile-head/profile-head", 
+    "profile-offers-and-collections":"./child/profile-offers-and-collections/profile-offers-and-collections",
+    "profile-order": "./child/profile-order/profile-order"
+  },
+  "navigationBarTitleText": "我的"
+}

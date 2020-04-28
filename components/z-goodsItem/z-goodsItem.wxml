@@ -1,0 +1,13 @@
+<view class="goods-item">
+  <image src="{{item.image || item.show.img}}" mode='widthFix'/>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <view class='collect'>
+        <image mode="widthFix" src="/asstes/img/common/collect.png" bindload="imgLoad"/>
+      </view>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

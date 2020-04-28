@@ -1,0 +1,82 @@
+.shopinfo{
+  padding: 25rpx 16rpx;
+  border-bottom: 14rpx solid #f2f5f8
+}
+.logo{
+  width: 15%;
+  border-radius: 50%;
+  border: 2rpx solid #e1e1e1;
+  vertical-align: middle
+}
+.shopname{
+  margin-left: 30rpx;
+  font-size: 26rpx;
+}
+.shopinfoBody{
+  padding: 25rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  flex: 1;
+  display: flex;
+  text-align: center;
+  height: 100rpx;
+  border-right: 1px solid #e1e1e1
+}
+.left > view{
+  flex: 1
+}
+.left > view > view{
+  width: 100%
+}
+.num{
+  color: #ff5777;
+  font-weight: 700
+}
+.desc{
+  color: #1b1b1b;
+  font-size: 25rpx
+}
+.right{
+  flex: 1;
+  position: relative;
+  top: -22rpx;
+}
+.right > view{
+  display: flex;
+  margin: 10rpx 10%;
+  position: relative;
+  font-size: 25rpx
+}
+.right > view > view:last-of-type{
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+.right > view > view:first-of-type{
+  margin-right: 30rpx
+}
+.better > view:last-of-type{
+  background-color: #ff8888
+}
+.better > view:nth-of-type(2){
+  color: #ff8888
+}
+.unbetter > view:last-of-type{
+  background-color: #8dd87e
+}
+
+.unbetter > view:nth-of-type(2){
+  color: #8dd87e
+}
+.enter{
+  width: 50%;
+  height: 60rpx;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  background-color: #ff8198;
+}

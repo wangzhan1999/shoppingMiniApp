@@ -1,0 +1,3 @@
+<view class="backbtn">
+  <image src="/asstes/img/common/back.png" mode="widthFix" bindtap="backtop"/>
+</view>

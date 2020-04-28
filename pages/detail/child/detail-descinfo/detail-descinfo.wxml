@@ -1,0 +1,12 @@
+<view class="descInfo">
+  <view class="start"></view>
+  <view class="desc">{{descInfo.desc}}</view>
+  <view class="end"></view>
+  <view class="key">{{descInfo.key}}</view>
+  <view class="imgList">
+    <image wx:for="{{descInfo.detailImage}}"
+           src="{{item}}"
+           wx:key="index"
+           mode="widthFix"/>  
+  </view>
+</view>

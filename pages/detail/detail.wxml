@@ -1,0 +1,18 @@
+<scroll-view class="warp"
+             scroll-y
+             bindscroll="scroll"
+             scroll-top="{{scrollTop}}"
+             duration="300"
+             scroll-with-animation
+             scroll-into-view="{{scrollIntoView}}">
+  <detail-navbar class="tabbar" bind:tabbarclick="tabbarclick" titles="{{titles}}" currentIndex="{{currentIndex}}"/>
+  <detail-swiper topImgs="{{topImgs}}"/>
+  <detail-baseinfo goods="{{goods}}"/>
+  <detail-shopinfo shopInfo="{{shopInfo}}"/>
+  <detail-descinfo descInfo="{{descInfo}}"/>
+  <detail-paraminfo paramInfo="{{paramInfo}}" id="paraminfo"/>
+  <detail-comment comment="{{comment}}" id="comment"/>
+  <detail-goods goodsList="{{goodsList}}" id="goodslist"/>
+</scroll-view>
+<z-back-top wx:if="{{showbackbtn}}" bind:backtop="backtop" class="fix"/>
+<detail-bottombar bind:addToCart='addToCart' bottitle="{{bottitle}}"/>

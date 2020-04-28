@@ -1,0 +1,30 @@
+.paraminfo{
+  padding: 16rpx;
+  border-bottom: 14rpx solid #f2f5f8
+}
+.sizetable,.infotable{
+  display: flex;
+  flex-direction: column;
+  font-size: 26rpx;
+}
+.sizetable > view,.infotable > view{
+  flex: 1;
+  display: flex;
+  line-height: 2.5;
+  border-bottom: 1px solid #f2f5f8
+}
+.sizetable > view:last-of-type{
+  border-width: 10rpx
+}
+.sizeitem{
+  flex: 1;
+  width: 25%;
+}
+.infoitem:nth-of-type(2n-1){
+  flex: 2;
+}
+.infoitem:nth-of-type(2n){
+  flex: 8;
+  margin-left: 30rpx;
+  color: #ff5777;
+}

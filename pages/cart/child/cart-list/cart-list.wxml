@@ -1,0 +1,24 @@
+<view>
+  <view class="cart-list-item">
+    <image src="{{goods.image}}" mode="widthFix" class="product-img"/>
+    <view class="product-title">{{goods.title}}</view>
+    <view class="product-style">{{goods.style}}</view>
+    <view class="product-price">
+    单价：<text>￥{{goods.price}}</text>
+    </view>
+    <view class="btngroup">
+      <button class="addition"
+              bindtap="addition"
+              data-index="{{index}}">+</button>
+      <text class="product-num">{{goods.num}}</text>
+      <button class="subtraction"
+              bindtap="subtraction"
+              data-index="{{index}}">-</button>
+    </view>
+    <z-checkbox class="checkbtn"
+                isChecked="{{goods.statu}}"
+                bindtap="checked"
+                id="{{goods.iid}}"
+                data-index="{{index}}"/>
+  </view>
+</view>
