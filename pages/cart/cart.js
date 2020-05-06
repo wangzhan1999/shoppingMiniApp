@@ -44,6 +44,7 @@ Page({
     }
     this.changeData()
   },
+  // 购买的点击事件
   onBuy(){
     const residuelist = this.data.cartList.filter(item => item.statu == false)
     const checkedlist = this.data.cartList.filter(item => item.statu == true)
